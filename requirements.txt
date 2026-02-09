@@ -1,7 +1,7 @@
-fastapi==0.104.1
+fastapi
 mangum
-pydantic==2.5.0
-sqlalchemy==2.0.23
-uvicorn==0.24.0
+pydantic
+sqlalchemy
 python-dotenv
-python-multipart==0.0.6
+uvicorn
+python-multipart
