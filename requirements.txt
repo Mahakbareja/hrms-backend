@@ -1,7 +1,5 @@
 fastapi
-mangum
-pydantic
-sqlalchemy
-python-dotenv
 uvicorn
-python-multipart
+sqlalchemy
+pydantic
+python-dotenv
