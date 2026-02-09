@@ -1,5 +1,10 @@
 from fastapi import FastAPI
-from app.main import app as fastapi_app
-from magnum  import Mangum
+from mangum import Mangum
 
-handler = Mangum(fastapi_app)
+app = FastAPI()
+
+@app.get("/")
+def root():
+    return {"message": "HRMS Backend Running"}
+
+handler = Mangum(app)
